@@ -1,0 +1,80 @@
+header {
+  height: 97vh;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 50%;
+  position: relative;
+}
+
+/*====== CTA ==== */
+.cta {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/*====== Social ==== */
+.header__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+
+
+/* ==== ME ==== */
+
+.me {
+  width: 14rem;
+  height: 25rem;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: -1rem;
+  border-radius: 10rem;
+  overflow: hidden;
+}
+
+/*===== scroll down ====*/
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ===== media queries tablet =====*/
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 52vh;
+  }
+  .me{
+    margin-left: 39%;
+  }
+}
+
+/* ===== media queries mobile =====*/
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 70vh;
+  }
+
+  .me{
+    margin-left: 30%;
+  }
+ 
+  .scroll__down {
+    display: none;
+  }
+}
