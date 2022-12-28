@@ -2,7 +2,7 @@
 
 Descrição do projeto
 
-[Visit the website](https//www.juliana-barbosa.com)
+[Visit the website](https://www.juliana-barbosa.com)
  
 
 
