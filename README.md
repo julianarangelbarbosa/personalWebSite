@@ -1,4 +1,4 @@
-# Website personal - Portfolio
+# Website Personal - Portfolio
 
 Descrição do projeto: desenvolvimento e deploy de um site onde os Tech Recruiters possam visualizar o meu portfolio de projetos.
 
